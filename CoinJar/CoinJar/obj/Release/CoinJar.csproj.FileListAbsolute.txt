@@ -1,0 +1,5 @@
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJar\bin\Release\CoinJar.exe.config
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJar\bin\Release\CoinJar.exe
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJar\bin\Release\CoinJar.pdb
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJar\obj\Release\CoinJar.exe
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJar\obj\Release\CoinJar.pdb

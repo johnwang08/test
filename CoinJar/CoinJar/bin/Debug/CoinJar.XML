@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoinJar</name>
+    </assembly>
+    <members>
+        <member name="T:CoinJar.Coin">
+            <summary>
+            Base class for coin.
+            </summary>
+        </member>
+        <member name="M:CoinJar.ICoin.GetVolume">
+            <summary>
+            Get volume of the coin in fluid ounces
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:CoinJar.Coin.diameter">
+            <summary>
+            diameter of coin in mm.
+            </summary>
+        </member>
+        <member name="F:CoinJar.Coin.thickness">
+            <summary>
+            thickness of coin in mm.
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin.GetVolume">
+            <summary>
+            Get volume of the coin in fluid ounces
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoinJar.Coin.AddToJar(CoinJar.Jar)">
+            <summary>
+            Abstract method to add the coin to the jar.
+            Due to different coins have different specification and value, we need to implement it in derived sub-class
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Coin001">
+            <summary>
+            Coin class of 1-cent coin.
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin001.#ctor">
+            <summary>
+            Constructor to set coin diameter and thickness
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin001.AddToJar(CoinJar.Jar)">
+            <summary>
+            Add the coin to a jar
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Coin005">
+            <summary>
+            Coin class of 5-cent coin.
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin005.#ctor">
+            <summary>
+            Constructor to set coin diameter and thickness
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin005.AddToJar(CoinJar.Jar)">
+            <summary>
+            Add the coin to a jar
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Coin010">
+            <summary>
+            Coin class of 10-cent coin.
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin010.#ctor">
+            <summary>
+            Constructor to set coin diameter and thickness
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin010.AddToJar(CoinJar.Jar)">
+            <summary>
+            Add the coin to a jar
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Coin025">
+            <summary>
+            Coin class of 25-cent coin.
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin025.#ctor">
+            <summary>
+            Constructor to set coin diameter and thickness
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin025.AddToJar(CoinJar.Jar)">
+            <summary>
+            Add the coin to a jar
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Coin050">
+            <summary>
+            Coin class of 50-cent coin.
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin050.#ctor">
+            <summary>
+            Constructor to set coin diameter and thickness
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin050.AddToJar(CoinJar.Jar)">
+            <summary>
+            Add the coin to a jar
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Coin100">
+            <summary>
+            Coin class of $1 coin
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin100.#ctor">
+            <summary>
+            Constructor to set coin diameter and thickness
+            </summary>
+        </member>
+        <member name="M:CoinJar.Coin100.AddToJar(CoinJar.Jar)">
+            <summary>
+            Add the coin to a jar
+            </summary>
+            <param name="jar"></param>
+            <returns>true: succeeded adding the coin to the jar</returns>
+        </member>
+        <member name="T:CoinJar.Jar">
+            <summary>
+            Class Jar with capacity of 32 US fluid ounces
+            </summary>
+        </member>
+        <member name="F:CoinJar.Jar.maxVolume">
+            <summary>
+            capacity of the jar
+            </summary>
+        </member>
+        <member name="M:CoinJar.Jar.ResetJar">
+            <summary>
+            Reset the jar
+            </summary>
+        </member>
+        <member name="M:CoinJar.Jar.PrintJar">
+            <summary>
+            print the jar
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.CurrentVolume">
+            <summary>
+            Current voulme filled by coins. The remaining volume is maxVolume-CurrentVolume
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.CurrentAmount">
+            <summary>
+            Current amount of the coins
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.Coin001Counter">
+            <summary>
+            Counter of 1-cent coins
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.Coin005Counter">
+            <summary>
+            Counter of 5-cent coins
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.Coin010Counter">
+            <summary>
+            Counter of 10-cent coins
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.Coin025Counter">
+            <summary>
+            Counter of 25-cent coins
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.Coin050Counter">
+            <summary>
+            Counter of 50-cent coins
+            </summary>
+        </member>
+        <member name="P:CoinJar.Jar.Coin100Counter">
+            <summary>
+            Counter of $1 coins
+            </summary>
+        </member>
+        <member name="M:CoinJar.Program.Main(System.String[])">
+            <summary>
+            demo
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>

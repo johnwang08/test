@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoinJarTest</name>
+    </assembly>
+    <members>
+        <member name="T:CoinJarTest.Coin100Test">
+            <summary>
+            Test Coin100 class
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin100Test.Coin100ConstructorTest">
+            <summary>
+            Test Coin100 constructor
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin100Test.Coin100AddJarTest">
+            <summary>
+            Test Coin100.AddJar method
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.Coin050Test">
+            <summary>
+            Test Coin050 class
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin050Test.Coin050ConstructorTest">
+            <summary>
+            Test Coin050 constructor
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin050Test.Coin050AddJarTest">
+            <summary>
+            Test Coin050.AddJar method
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.Coin025Test">
+            <summary>
+            Test Coin025 class
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin025Test.Coin025ConstructorTest">
+            <summary>
+            Test Coin025 constructor
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin025Test.Coin025AddJarTest">
+            <summary>
+            Test Coin025.AddJar method
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.Coin010Test">
+            <summary>
+            Test Coin010 class
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin010Test.Coin010ConstructorTest">
+            <summary>
+            Test Coin010 constructor
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin010Test.Coin010AddJarTest">
+            <summary>
+            Test Coin010AddJar method
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.Coin005Test">
+            <summary>
+            Test Coin005 class
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin005Test.Coin005ConstructorTest">
+            <summary>
+            Test Coin005 constructor
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin005Test.Coin005AddJarTest">
+            <summary>
+            Test Coin005.AddJar method
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.Coin001Test">
+            <summary>
+            Test Coin001 class
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin001Test.Coin001ConstructorTest">
+            <summary>
+            Test Coin001 constructor
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.Coin001Test.Coin001AddJarTest">
+            <summary>
+            Test Coin001.AddJar method
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWith100CentCoins">
+            <summary>
+            Fill up with $1 coins.
+            When the jar is full, it has $857 as amount, and 857 coins of $1
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWith100CentCoins.FillUpwith100CentCoinTest">
+            <summary>
+            Integration test to fill up jar with $1 coins.
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWith50CentCoins">
+            <summary>
+            Integration test to fill up jar with 50-cent coins.
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWith50CentCoins.FillUpwith50CentCoinTest">
+            <summary>
+            Fill up with 50-cent coins.
+            When the jar is full, it has $299 as amount, and 598 coins of 50-cent
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWith25CentCoins">
+            <summary>
+            Integration test to fill up jar with 25-cent coins.
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWith25CentCoins.FillUpwith25CentCoinTest">
+            <summary>
+            Fill up with 25-cent coins.
+            When the jar is full, it has $292.25 as amount, and 1169 coins of 25-cent
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWith10CentCoins">
+            <summary>
+            Fill up with 10-cent coins.
+            When the jar is full, it has $278.20 as amount, and 2782 coins of 10-cent
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWith10CentCoins.FillUpwith10CentCoinTest">
+            <summary>
+            Integration test to fill up jar with 10-cent coins.
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWithRandomCoins">
+            <summary>
+            Integration test to fill up jar with random coins.
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWithRandomCoins.FillUpwithRandomCoinTest">
+            <summary>
+            Fill up with random coins.
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWith5CentCoins">
+            <summary>
+            Integration test to fill up jar with 5-cent coins.
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWith5CentCoins.FillUpwith5CentCoinTest">
+            <summary>
+            Fill up with 5-cent coins.
+            When the jar is full, it has $68.65 as amount, and 1373 coins of 5-cent
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.JarTest">
+            <summary>
+            Test jar
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.JarTest.ResetJarTest">
+            <summary>
+            Test jar resetting
+            </summary>
+        </member>
+        <member name="T:CoinJarTest.IntegrationTest_FillUpWith1CentCoins">
+            <summary>
+            Integration test to fill up jar with 1-cent coins.
+            </summary>
+        </member>
+        <member name="M:CoinJarTest.IntegrationTest_FillUpWith1CentCoins.FillUpwith1CentCoinTest">
+            <summary>
+            Fill up with 1-cent coins.
+            When the jar is full, it has $21.53 as amount, and 2153 coins of 1-cent
+            </summary>
+        </member>
+    </members>
+</doc>

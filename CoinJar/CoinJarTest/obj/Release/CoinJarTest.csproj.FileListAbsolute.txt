@@ -1,0 +1,7 @@
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\bin\Release\CoinJarTest.dll
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\bin\Release\CoinJarTest.pdb
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\bin\Release\CoinJar.exe
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\bin\Release\CoinJar.pdb
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\obj\Release\CoinJarTest.csprojResolveAssemblyReference.cache
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\obj\Release\CoinJarTest.dll
+C:\Users\jwang\Documents\Visual Studio 2013\Projects\CoinJar\CoinJarTest\obj\Release\CoinJarTest.pdb

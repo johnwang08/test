@@ -1,0 +1,14 @@
+	Current Amount $0.00
+	Coin of 1 Cent Counter 0
+	Coin of 5 Cents Counter 0
+	Coin of 10 Cents Counter 0
+	Coin of 25 Cents Counter 0
+	Coin of 50 Cents Counter 0
+	Coin of 1 Dollars Counter 0
+	Current Amount $0.00
+	Coin of 1 Cent Counter 0
+	Coin of 5 Cents Counter 0
+	Coin of 10 Cents Counter 0
+	Coin of 25 Cents Counter 0
+	Coin of 50 Cents Counter 0
+	Coin of 1 Dollars Counter 0
