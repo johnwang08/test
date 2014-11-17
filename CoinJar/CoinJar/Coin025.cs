@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CoinJar
 {
     /// <summary>
@@ -33,7 +28,7 @@ namespace CoinJar
             {
                 jar.Coin025Counter++;
                 jar.CurrentAmount += 0.25m;
-                jar.CurrentVolume += GetVolume();
+                jar.CurrentVolume += v;
                 return true;
             }
             else

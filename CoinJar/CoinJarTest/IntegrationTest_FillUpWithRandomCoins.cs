@@ -18,6 +18,7 @@ namespace CoinJarTest
         {
             Jar jar = new Jar();
 
+            // The Random() constructor uses the system clock to provide a seed value. 
             Random rnd = new Random();
 
             // coin.AddToJar failure indicates jar full.
@@ -55,7 +56,7 @@ namespace CoinJarTest
                         break;
                 }
             }
-            //fill up random coins
+            //loop while last filling succeeded 
             while (addJarSucceeded);
 
             jar.PrintJar();

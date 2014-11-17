@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CoinJar.Coin">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAgAAQAAAAAAAAAAAAAACAEAAAAAAAQAASA=</HashCode>
+      <FileName>Coin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.672" />
+  </Class>
+  <Class Name="CoinJar.Coin001">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Coin001.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinJar.Coin005">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Coin005.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinJar.Coin010">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Coin010.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinJar.Coin025">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Coin025.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinJar.Coin050">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Coin050.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinJar.Coin100">
+    <Position X="10.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Coin100.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinJar.Jar">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABMAAAAAAIAARAAAAAAAAAAAAAAAAIACAAACAAA=</HashCode>
+      <FileName>Jar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CoinJar.ICoin">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICoin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

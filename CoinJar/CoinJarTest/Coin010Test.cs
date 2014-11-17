@@ -1,6 +1,5 @@
-﻿using System;
+﻿using CoinJar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoinJar;
 
 
 namespace CoinJarTest
@@ -38,8 +37,9 @@ namespace CoinJarTest
             //add the 10-cent coin to the jar
             coin010.AddToJar(jar);
 
-            //assert jar.Coin010Counter is 1
+            //assert jar.Coin010Counter is 1 and jar.CurrentAmount is $0.10
             Assert.AreEqual(1, jar.Coin010Counter);
+            Assert.AreEqual(0.10m, jar.CurrentAmount);
 
         }
 

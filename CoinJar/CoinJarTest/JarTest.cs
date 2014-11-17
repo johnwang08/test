@@ -1,5 +1,4 @@
-﻿using System;
-using CoinJar;
+﻿using CoinJar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CoinJarTest
@@ -22,6 +21,7 @@ namespace CoinJarTest
 
             jar.ResetJar();
 
+            // After calling jar.ResetJar() all properties of jar should be 0.
             Assert.AreEqual(0.0m, jar.CurrentAmount);
             Assert.AreEqual(0.0m, jar.CurrentVolume);
             Assert.AreEqual(0, jar.Coin001Counter);

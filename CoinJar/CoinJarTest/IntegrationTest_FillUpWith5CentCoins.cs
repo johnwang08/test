@@ -1,5 +1,4 @@
-﻿using System;
-using CoinJar;
+﻿using CoinJar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CoinJarTest

@@ -1,18 +1,17 @@
-﻿using System;
-using CoinJar;
+﻿using CoinJar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CoinJarTest
 {
     /// <summary>
-    /// Fill up with $1 coins.
-    /// When the jar is full, it has $857 as amount, and 857 coins of $1
+    /// Integration test to fill up jar with $1 coins.
     /// </summary>
     [TestClass]
     public class IntegrationTest_FillUpWith100CentCoins
     {
         /// <summary>
-        /// Integration test to fill up jar with $1 coins.
+        /// Fill up with $1 coins.
+        /// When the jar is full, it has $857 as amount, and 857 coins of $1
         /// </summary>
         [TestMethod]
         public void FillUpwith100CentCoinTest()

@@ -1,6 +1,5 @@
-﻿using System;
+﻿using CoinJar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoinJar;
 
 
 namespace CoinJarTest
@@ -18,10 +17,10 @@ namespace CoinJarTest
         public void Coin005ConstructorTest()
         {
             Coin005 coin005 = new Coin005();
+
             //assert coin of 5 cent has diameter of 21.21mm, and thickness of 1.95mm
             Assert.AreEqual(21.21m, coin005.diameter);
             Assert.AreEqual(1.95m, coin005.thickness);
-
         }
 
         
@@ -37,8 +36,9 @@ namespace CoinJarTest
             //add the 5-cent coin to the jar
             coin005.AddToJar(jar);
 
-            //assert jar.Coin005Counter is 1
+            //assert jar.Coin005Counter is 1 and jar.CurrentAmount is $0.05
             Assert.AreEqual(1, jar.Coin005Counter);
+            Assert.AreEqual(0.05m, jar.CurrentAmount);
 
         }
 

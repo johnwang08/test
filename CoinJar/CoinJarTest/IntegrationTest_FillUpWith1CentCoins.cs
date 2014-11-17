@@ -1,5 +1,4 @@
-﻿using System;
-using CoinJar;
+﻿using CoinJar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CoinJarTest
@@ -19,7 +18,6 @@ namespace CoinJarTest
         {
             Jar jar = new Jar();
             Coin001 coin001 = new Coin001();
-            var coin001Volume=coin001.GetVolume();
 
             //fill up with 1-cent coins
             while (coin001.AddToJar(jar));
